@@ -1,5 +1,3 @@
-require 'byebug'
-
 def flatten(array, results=[])
   array.each do |element|
     if element.class == Array
